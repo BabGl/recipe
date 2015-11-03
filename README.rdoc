@@ -1,0 +1,11 @@
+Testing space for recipes;
+name: string
+summary: text
+description: text
+
+- name must be present
+- name must be between 5 characters and less than 100 chr
+- summary must be present
+- summary must bet between 10 chr and less than 158 characters
+- description must be between 20 and 500 characters
+- chef_id must be present
