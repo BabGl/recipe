@@ -8,14 +8,15 @@ $light-orange:#FFFFFF;
    margin-top: 10px;
    margin-bottom: 10px;
    float: left;
-   margin-right: 10px;
+   margin-right: 50px;
    font-size: 2em;
-   color:#fff;
-  // background-color: #FF0000 ;
+  // color:#fff;
+  background-color: #2B1B17 ;
    text-transform: uppercase;
    letter-spacing: -1px;
    padding-top: 9px;
    font-weight: bold;
+   border: 0px;
    
  }
  #logo:hover   {
@@ -24,15 +25,25 @@ $light-orange:#FFFFFF;
  }
  
  body {
-   padding-top:80px ;
+   padding-top:100px ;
  }
  
- .nav_item{
-   margin-left: 25px;
+ #nav_item{
+   margin-top: 50px;
+   margin-bottom: 10px;
    float: left;
-   margin-top: 10px;
-   
- }
+   margin-right: 10px;
+   font-size: 1em;
+   color:#fff;
+  // background-color: #FF0000 ;
+   text-transform: uppercase;
+   letter-spacing: -1px;
+   padding-top: 9px;
+    
+   font-weight: bold;
+   text-align:center;
+
+     }
  
  
  .center {
@@ -47,6 +58,7 @@ $light-orange:#FFFFFF;
    font-size: 3em;
    letter-spacing: -2px;
    margin-bottom: 30px;
+   margin-top: 50px;
    text-align: center;
  }
  
@@ -59,6 +71,6 @@ $light-orange:#FFFFFF;
  }
  .footer {
    margin-top: 25px;
-   border-top:1px solid #00FF00;
+   border-top:1px solid #000000;
    color:#000000;
  }
