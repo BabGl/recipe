@@ -1,6 +1,4 @@
-<H1>Alle Recepten</H1>
-
-<hr/>
+<%= render 'shared/page_title', title: "Alle Recepten" %>
 <% @recipes.each do |recipe| %>
 
 <div class="row">
@@ -8,7 +6,7 @@
   <div class="col-md-2">
     <section class="chef_info center">
     
-  <%= gravatar_for recipe.chef, size: 100 %>
+ <!-- ~//< gravatar_for recipe.chef, size: 100 %>-->
     <h5>Chef name: <%= recipe.chef.chefname %></h5>
     
    

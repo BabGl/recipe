@@ -1,7 +1,19 @@
-<p>
-  
-  <h1>
-    <% @recipe.name %> </h1>
+<%= render 'shared/page_title', title: @recipe.name%>
+    <div class="col -md-4 pull-right center"></div>
+   <p>
+    <h1> De recept is door <%= @recipe.chef.chefname %> gemaakt</h1>
+     </p>
+    <div class="col- md-8">
+      
+    <h3><%= @recipe.summary %></h3>
+      <div class="well">
+        <p>
+          <strong>Stappen:</strong>
+        </p>
+        <%= @recipe.description %>
+      </div>
+      
+    </div>
     
-  
-</p>
+    <h5><%= link_to "Terug naar de Recepten lijst", recipes_path, class: "btn btn-warning btn-small" %></h5>
+    <br><%= link_to "Bewerk deze Recept", edit_recipe_path(@recipe), class: "btn btn-success pull-right" %></br>

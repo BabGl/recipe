@@ -1,24 +1,9 @@
 <p>
-<h1>Nieuw recept maken</h1>
-
+  
+  <h1></h1>
+  <hr/>
+  
+  
 </p>
 
-<div class="row">
-  <div class="well col-md-8 col-md-offset-2">
-  
-  <%= form_for Recipe.new do |f| %>
-  <%= f.label :Naam %>
-  <%= f.text_field :name %>
-  
-  <%= f.label :Overzicht %>
-  <%= f.text_field :summary %>
-  
-  <%= f.label :Descriptie %>
-  <%= f.text_area :description %>
-  
-  <%= f.submit 'Create Recipe', class: "btn btn-success" %>
-  
-  <% end %>
-  
-</div>
-</div>
+<%= render 'form' %>
